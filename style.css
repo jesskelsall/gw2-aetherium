@@ -1,0 +1,34 @@
+/* Align form group labels for larger input fields */
+.large > label {
+  margin-top: 7px;
+}
+
+/* Hide HTML5 input text field "spinners" */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Form calculate button */
+.calculate {
+  width: 100%;
+}
+
+/* Date and time output calculations */
+.calculations h2 {
+  margin-top: 5px;
+}
+
+.calculations h4 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+/* Countdown date completed */
+.calculations .done {
+  color: #3c763d;
+}
